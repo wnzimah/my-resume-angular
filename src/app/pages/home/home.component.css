@@ -1,0 +1,57 @@
+/* ---------- COLOR PALETTE ----------
+#003566 - Header/Footer
+#0077B6 - Accent
+#90E0EF - Soft Blue
+#F8FAFC - Background
+------------------------------------ */
+
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #F8FAFC;
+    color: #1B263B;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003566;
+    color: #F8FAFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 35px 20px;
+}
+
+header img {
+    width: 150px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+nav a {
+    color: #F8FAFC;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+nav a.active,
+nav a:hover {
+    color: #90E0EF;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    margin: 35px auto;
+    max-width: 900px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #003566;
+    border-left: 5px solid #0077B6;
+    padding-left: 10px;
+}
